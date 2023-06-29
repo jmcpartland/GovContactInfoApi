@@ -31,6 +31,12 @@ test:
   <<: *default
   database: db/test_test
 
+# production:
+#   <<: *default
+#   database: db/production_production
+
 production:
   <<: *default
-  database: db/production_production
+  database: production_production
+  username: postgres
+  password: <%= ENV["GOVECONTACTINFOAPI_DATABASE_PASSWORD"] %>
