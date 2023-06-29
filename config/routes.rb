@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   get '/state/:state', to: 'members#members_by_state'
 
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "members#index"
 end
