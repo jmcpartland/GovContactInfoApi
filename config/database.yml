@@ -31,12 +31,6 @@ test:
   <<: *default
   database: db/test_test
 
-# production:
-#   <<: *default
-#   database: db/production_production
-
 production:
   <<: *default
-  # database: db/development_dev
-  # username: postgres
-  # password: dbready
+  database: db/production_production
