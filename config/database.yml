@@ -39,4 +39,4 @@ production:
   <<: *default
   database: production_production
   username: postgres
-  password: <%= ENV["GOVECONTACTINFOAPI_DATABASE_PASSWORD"] %>
+  password: dbready
