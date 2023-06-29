@@ -37,6 +37,6 @@ test:
 
 production:
   <<: *default
-  database: db/development_dev
+  # database: db/development_dev
   # username: postgres
   # password: dbready
